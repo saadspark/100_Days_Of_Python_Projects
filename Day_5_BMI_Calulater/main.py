@@ -1,7 +1,7 @@
 
-height = float(input())
+height = float(input('Enter Height : '))
 
-weight = int(input())
+weight = int(input('Enter Weight : '))
 
 
 #Write your code below this line 👇
