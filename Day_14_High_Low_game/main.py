@@ -35,7 +35,7 @@ while not game_over:
 
     while person_one == person_two:
         person_two = generate_random()
-
+    print(f"You are right Current score: {high_score}")
     print(f'Compare A: {person_one["name"]}, a {person_one["description"]} from {person_one["country"]}')
     print(vs)
     print(f'Against B: {person_two["name"]}, a {person_two["description"]} from {person_two["country"]}')
