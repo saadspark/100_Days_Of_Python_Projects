@@ -1,6 +1,5 @@
-# Input a Python list of student heights
 student_heights = input().split()
-count = 0;
+count = 0
 total_hight = 0
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])

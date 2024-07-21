@@ -7,6 +7,7 @@ class Score(Turtle) :
         self.score = 0
         self.color('white')
         self.penup()
+        self.hideturtle()
         
         self.shape(None)
         self.goto(x=0,y=270)
