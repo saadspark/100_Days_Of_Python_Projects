@@ -1,10 +1,12 @@
 from tkinter import *
 from tkinter import messagebox
+import pyperclip
 from password_gernater import GarnetPassword
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def gerent_password() :
     password = GarnetPassword.password_generator()
     password_input.insert(0, password)
+    pyperclip.copy(password)
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add_recode():
     f = open("text_file.txt", "a")
