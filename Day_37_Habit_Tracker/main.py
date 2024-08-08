@@ -29,13 +29,12 @@ headers = {
     'X-USER-TOKEN' : TOKEN
 }
 
-# request = requests.post(url=GRAPH_URL, json=graph_data, headers=headers)
-# print(request.text)
+request = requests.post(url=GRAPH_URL, json=graph_data, headers=headers)
+print(request.text)
 
 
 #posting pixel
-
-# posting_url = f'{END_POINT_URL}/{USER_NAME}/graphs/{GRAPH_ID}'
+posting_url = f'{END_POINT_URL}/{USER_NAME}/graphs/{GRAPH_ID}'
 
 today = datetime.now()
 print(today.strftime("%Y%m%d"))
